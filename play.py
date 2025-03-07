@@ -107,7 +107,7 @@ class Zabbix(AsyncMixin):
     # Check if new position is not out of map and does not collide with a wall
     if 0 <= x < config.boardSize and 0 <= y < config.boardSize:
       print(f'Move to direction: {chr(direction).upper()}')
-    #   cellValue = self.zabbix.gameMap[y][x*2]
+    #   cellValue = self.gameMap[y][x*2]
     #   if cellValue not in config.symbolsWalls:
 
 
